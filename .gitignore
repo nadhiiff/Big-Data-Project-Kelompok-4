@@ -1,0 +1,43 @@
+# ===== Rahasia (JANGAN PERNAH DI-COMMIT) =====
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+client_secret*.json
+api_key.txt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Jupyter / Colab =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== Cache dan file sementara =====
+.cache/
+*.tmp
+*.log
+
+# ===== File sistem operasi =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== File sementara Office =====
+~$*
+*.docx#
+
+# ===== Opsional: aktifkan jika dataset menjadi terlalu besar =====
+# data/mentah/*.csv
+# data/olahan/*.csv

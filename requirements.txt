@@ -1,0 +1,17 @@
+# Pengumpulan data (YouTube Data API v3)
+google-api-python-client
+
+# Pengolahan data
+pandas
+numpy
+
+# NLP Bahasa Indonesia (stemming dan stopword)
+PySastrawi
+
+# Machine learning (TF-IDF, K-Means, Silhouette, TruncatedSVD)
+scikit-learn
+
+# Visualisasi
+matplotlib
+seaborn
+wordcloud
